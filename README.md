@@ -703,6 +703,14 @@ Built-in modules are written in C and integrated with python interpreter. Each b
 
 The standard library also has many python scripts containing useful utilities.  There are several built-in modules in python at our disposal that we can use whenever we want.
 
+Some Important Built-in-Modules are:
+* Sys
+* Os
+* Math
+* DateTime
+* Random
+* Json
+
 
 ### Packages
 
