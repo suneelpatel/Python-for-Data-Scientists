@@ -31,5 +31,11 @@ This repository will offer several learning strategies and advanced study materi
 # 1. Sequence and it's operation
 
 ## What is Sequences
-## Type of Sequence
-## Sequence Operations
+
+A sequence is a succession of values bound together by a container that reflects their type. In other words, Sequences are containers with the items or elements that are accessible by indexing or slicing.
+
+Almost every stream that you put in Python is a sequence.
+
+### Type of Sequence
+
+### Sequence Operations
