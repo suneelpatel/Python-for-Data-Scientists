@@ -9,9 +9,8 @@ This repository will offer several learning strategies and advanced study materi
 2. Functions and Variables
     - Built-in-Functions
     - Lambda Function
-    - Scope of Variables
+    - User Define Function
 3. Object Oriented Progrmaming (OOPs) Key Concepts
-    - POPs Vs OOPs
     - Classes and Objects
     - OOPs Features
 4. Standard Libraries
@@ -660,13 +659,21 @@ Functions that readily come with Python are called built-in functions. If we use
 
 All the other functions that we write on our own fall under user-defined functions. So, our user-defined function could be a library function to someone else.
 
-### Scope of Variables
-
 # 3. Object Oriented Progrmaming (OOPs) Key Concepts
 
-### POPs Vs OOPs
-
 ### Classes and Objects
+
+* Python is an object oriented programming language.
+
+* Almost everything in Python is an object, with its properties and methods.
+
+* A Class is like an object constructor, or a "blueprint" for creating objects.
+
+The attributes are data members (class variables and instance variables) and methods which are accessed via dot notation.
+
+* Class variable is a variable that is shared by all the different objects/instances of a class.
+* Instance variables are variables which are unique to each instance. It is defined inside a method and belongs only to the current instance of a class.
+* Methods are also called as functions which are defined in a class and describes the behaviour of an object.
 
 ### OOPs Features
 
