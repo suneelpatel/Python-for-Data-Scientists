@@ -651,6 +651,15 @@ lambda arguments: expression
 
 Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.
 
+### Python User-Defined Functions
+
+#### What Are User-Defined Functions In Python?
+Functions that we define ourselves to do the certain specific task are referred to as user-defined functions. The way in which we define and call functions in Python are already discussed.
+
+Functions that readily come with Python are called built-in functions. If we use functions written by others in the form of the library, it can be termed as library functions.
+
+All the other functions that we write on our own fall under user-defined functions. So, our user-defined function could be a library function to someone else.
+
 ### Scope of Variables
 
 # 3. Object Oriented Progrmaming (OOPs) Key Concepts
