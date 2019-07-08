@@ -6,9 +6,9 @@ This repository will offer several learning strategies and advanced study materi
 2. Functions and Variables
 3. Object Oriented Progrmaming (OOPs) Concepts
 4. Standard Libraries
-  - Built-in-Function
-  - Modules
-  - Packages
+    - Built-in-Function
+    - Modules
+    - Packages
 5. Numpy
 5. Pandas
 6. Matplotlib (Data Visualization)
