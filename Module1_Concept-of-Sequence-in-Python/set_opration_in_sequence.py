@@ -1,4 +1,4 @@
-X=set('Welcome To Edureka')
+X=set('Welcome To Python')
 print(X)
 
 A={1,2,3,4}
