@@ -3,8 +3,17 @@ This repository will offer several learning strategies and advanced study materi
 
 # Table of Content:
 1. Sequence and it's operation
+    - What is Sequences
+    - Type of Sequence
+    - Sequence Operations
 2. Functions and Variables
-3. Object Oriented Progrmaming (OOPs) Concepts
+    - Built-in-Functions
+    - Lambda Function
+    - Scope of Variables
+3. Object Oriented Progrmaming (OOPs) Key Concepts
+    - POPs Vs OOPs
+    - Classes and Objects
+    - OOPs Features
 4. Standard Libraries
     - Built-in-Function
     - Modules
