@@ -430,7 +430,7 @@ The getattr() method takes multiple parameters:
 * name – string that contains the attribute’s name
 * default (Optional) – value that is returned when the named attribute is not foun
 
-#### 11. Python help() Function:
+#### 12. Python help() Function:
 
 #### Definition
 
@@ -447,7 +447,7 @@ The help() method takes the maximum of one parameter.
 
 * object (optional) – you want to generate the help of the given object
 
-#### 12. Python id() Function:
+#### 13. Python id() Function:
 ##### Definition
 
 The id() function returns identity (unique integer) of an object.
@@ -462,7 +462,7 @@ id(object)
 
 The id() function takes a single parameter object.
 
-#### 13. Python len() Function:
+#### 14. Python len() Function:
 ##### Definition
 
 The len() function returns the number of items (length) in an object.
@@ -477,7 +477,7 @@ len(s)
 
 s – a sequence (string, bytes, tuple, list, or range) or a collection (dictionary, set or frozen set)
 
-#### 14. Python max() Function:
+#### 15. Python max() Function:
 ##### Definition
 
 The max() method returns the largest element in an iterable or largest of two or more parameters.
@@ -505,8 +505,151 @@ max() has two forms of arguments it can work with.
         - arg2 – mandatory second object for comparison (could be number, string or another object)
         - *args (Optional) – other objects for comparison
         - key – key function where each argument is passed and the comparison is performed based on its return value
+        
+#### 16. Python min() Function:
+
+##### Definition
+
+The min() method returns the smallest element in an iterable or smallest of two or more parameters.
+
+#### The syntax of min() method is:
+
+min(iterable, *iterables[,key, default])
+min(arg1, arg2, *args[, key])
+
+##### Parameters
+
+min() has two forms of arguments it can work with.
+
+* min(iterable, *iterables[, key, default])
+        - iterable – sequence (tuple, string), collection (set, dictionary) or an iterator object whose smallest element is to be found
+        - *iterables (Optional) – any number of iterables whose smallest is to be found
+        - key (Optional) – key function where the iterables are passed and the comparison is performed based on its return value
+        - default (Optional) – default value if the given iterable is empty
+* min(arg1, arg2, *args[, key])
+        - arg1 – mandatory first object for comparison (could be number, string or other object)
+        - arg2 – mandatory second object for comparison (could be number, string or other object)
+        - *args (Optional) – other objects for comparison
+        - key – key function where each argument is passed and a comparison is performed based on its return value
+
+#### 17. Python oct() Function:
+
+##### Definition
+
+The oct() method takes an integer number and returns its octal representation. If the given number is an int, it must implement __index__() method to return an integer.
+
+##### The syntax of oct() method is:
+
+oct(x)
+
+##### Parameters
+
+The oct() method takes a single parameter x.
+
+This parameter could be:
+
+* an integer number (binary, decimal or hexadecimal)
+* if not an integer, must implement __index__() method to return an integer
+
+
+#### 18. Python pow() Function:
+
+##### Definition
+
+The pow() method returns x to the power of y. If the third argument (z) is given, it returns x to the power of y modulus z, i.e. pow(x, y) % z.
+
+##### The syntax of pow() method is:
+
+pow(x, y[, z])
+
+##### Parameters
+
+The pow() method takes three parameters:
+
+* x – number which is to be powered
+* y – number which is to be powered with x
+* z (Optional) – number which is to be used for modulus operation
+
+#### 19.Python reversed() Function:
+
+##### Definition
+
+The reversed() method returns the reversed iterator of the given sequence.
+
+##### The syntax of reversed() method is:
+reversed(seq)
+
+##### Parameters
+
+The reversed() method takes a single parameter:
+
+* seq – sequence that should be reversed
+
+Could be an object that supports sequence protocol (__len__() and __getitem__() methods) as tuple, string, list or range
+
+Could be an object that has implemented __reversed__()
+
+#### 20. Python sum() Function:
+
+##### Definition
+
+The sum() method returns the reversed iterator of the given sequence.
+
+##### The syntax of sum() method is:
+sum(iterable, start)
+
+##### Parameters
+
+* iterable – iterable (list, tuple, dict etc) whose item’s sum is to be found. Normally, items of the iterable should be numbers.
+* start (optional) – this value is added to the sum of items of the iterable. The default value of start is 0 (if omitted)
+
+#### 21. Python type() Function:
+
+##### Definition
+
+If a single argument (object) is passed to type() built-in, it returns the type of the given object. If three arguments (name, bases, and dict) are passed, it returns a new type object.
+
+##### The syntax of type() method is:
+* type(object)
+* type(name, bases, dict)
+
+##### Parameters
+
+If the single object argument is passed to type(), it returns the type of the given object.
+
+
+### Python Recursive Functions
+
+#### What is recursion in Python?
+Recursion is the process of defining something in terms of itself.
+
+A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
+
+#### Python Recursive Function
+We know that in Python, a function can call other functions. It is even possible for the function to call itself. These type of construct are termed as recursive functions.
+
+Following is an example of a recursive function to find the factorial of an integer.
+
+Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 5 (denoted as 5!) is 1*2*3*4*5 = 120.
+
 
 ### Lambda Function
+
+#### What Are Lambda functions?
+
+In Python, an anonymous function is a function that is defined without a name.
+
+While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword.
+
+Hence, anonymous functions are also called lambda functions.
+
+#### How To Use Lambda Functions In Python?
+
+A Lambda function in python has the following syntax:
+
+lambda arguments: expression
+
+Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.
 
 ### Scope of Variables
 
