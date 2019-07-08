@@ -34,8 +34,14 @@ This repository will offer several learning strategies and advanced study materi
 
 A sequence is a succession of values bound together by a container that reflects their type. In other words, Sequences are containers with the items or elements that are accessible by indexing or slicing.
 
-Almost every stream that you put in Python is a sequence.
+Almost every stream that you put in Python is a sequence. The sequence is central to programming and central to Python.
 
 ### Type of Sequence
-
+    - 1. List
+    - 2. Tuples
+    - 3. Xrange
+    - 4. Strings
+    - 5. Sets
+    - 6. Dictionaries
+    
 ### Sequence Operations
