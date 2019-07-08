@@ -223,6 +223,24 @@ A function can **return data as a result**.
 
 **Return Statement** : The return statement terminates the execution of function and returns control to the calling function 
 
+To define a Python function, you’d have to use the ‘def’ keyword before the name of your function and add parentheses to its end, followed by a colon(:).
+
+Python uses indentation to indicate blocks instead of brackets to make codes more readable.
+
+The "rules" for naming a function are the same as naming a variable. It begins with either letter from A-Z, a-z in both upper & lower cases or an underscore(_). The rest of its name can contain underscores(_), digits(0-9), any letters in upper or lower case.
+
+A reserved keyword may not be chosen as an identifier.
+Good usage of grammar to ensure enhanced readability of code.
+It is good practice to name a Python function according to what it does. use a docstring right under the first line of a function declaration. This is a documentation string, and it explains what the function does.
+
+## Types Of Python Functions
+
+There are many types of Python Functions. And each of them is very vital in its own way. The following are the different types of Python Functions:
+
+#### 1. Python Built-in Functions
+#### 2. Python Recursion Functions
+#### 3. Python Lambda Functions
+#### 4. Python User-defined Functions
 
 ### Built-in-Functions
 
