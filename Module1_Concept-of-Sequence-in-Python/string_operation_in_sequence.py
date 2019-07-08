@@ -1,6 +1,6 @@
 str1='Welcome'
 str2="to"
-str3="""Edureka"""
+str3="""Python"""
 
 print(str1)
 print(str2)
