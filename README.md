@@ -45,3 +45,55 @@ Almost every stream that you put in Python is a sequence. The sequence is centra
     - 6. Dictionaries
     
 ### Sequence Operations
+
+* Concatenation
+* Repetation
+* Membership Testing
+* Slicing
+* Indexing
+
+### List
+
+List is a collection datatype in python. It is ordered and allows duplicate entries as well. Lists in python need not be homogeneous, which means it can contain different data types like integers, strings and other collection data types. 
+
+It is mutable in nature and allows indexing to access the members in a list. Also, the values can be changed even after a list is declared.
+
+* A list is a sort of container that holds a number of other objects, in a given order.
+* The list type implements the sequence protocol, and it also allows you to add and remove objects from the sequence.
+* It is an ordered set of elements enclosed in square brackets.
+
+Simple definition of list – li = []
+
+li = list() # empty list
+li = list(sequence)
+li = list(expression for variable in sequence)
+
+#### Accessing List Elements
+To access the elements of a list:
+
+n = len(li)
+
+item = li[index] #Indexing
+
+slice = li[start:stop] #Slicing
+
+
+#### Why Use A List?
+While choosing a data type for storing our data, we must keep in mind the properties and features of the data type. It becomes more efficient and secure if we make the right choice in first place.
+
+A list is preferred because it can store multiple data at the same time. It becomes easy to replace and modify the values inside a list. We can store the sequence in a list and perform several iterations using the loops as well. There are numerous operations we can perform on a list as well, lets understand the various operations that we have for lists in python.
+
+### List Operations In Python
+Following are the operations that we can perform on a list.
+* append
+* clear
+* copy
+* count
+* extend
+* insert
+* index
+* pop
+* remove
+* reverse
+* sort
+
