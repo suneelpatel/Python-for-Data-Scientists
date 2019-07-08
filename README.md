@@ -244,6 +244,66 @@ There are many types of Python Functions. And each of them is very vital in its 
 
 ### Built-in-Functions
 
+The Python interpreter has a number of functions that are always available for use. These functions are called built-in functions. For example, print() function prints the given object to the standard output device (screen) or to the text stream file.
+
+In Python 3.6, there are 68 built-in functions. But for the sake of simplicity let us consider the majorly used functions and we can build on from there.
+
+#### 1. Python abs() Function:
+Definition :
+The abs() method returns the absolute value of the given number. If the number is a complex number, abs() returns its magnitude.
+
+#### 2. Python all() Function:
+
+##### Definition
+
+The all() method returns True when all elements in the given iterable are true. If not, it returns False.
+
+##### Syntax
+
+The syntax of all() method is:
+
+all(iterable)
+
+##### Parameters
+
+The all() method takes a single parameter:
+
+iterable – Any iterable (list, tuple, dictionary, etc.) which contains the elements
+
+#### 3. Python ascii() Function:
+##### Definition
+
+The ascii() method returns a string containing a printable representation of an object. It escapes the non-ASCII characters in the string using x, u or U escapes.
+
+##### Syntax
+
+The syntax of ascii() method is:
+
+ascii(object)
+
+##### Parameters
+
+The ascii() method takes an object (like strings, list etc).
+
+#### 4. Python bin() Function:
+##### Definition
+
+The bin() method converts and returns the binary equivalent string of a given integer. If the parameter isn’t an integer, it has to implement __index__() method to return an integer.
+
+##### Syntax
+
+The syntax of bin() method is:
+
+bin(num)
+
+##### Parameters
+
+The bin() method takes a single parameter:
+
+num – an integer number whose binary equivalent is to be calculated.
+If not an integer, should implement __index__() method to return an integer.
+
+
 ### Lambda Function
 
 ### Scope of Variables
