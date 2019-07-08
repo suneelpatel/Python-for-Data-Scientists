@@ -213,7 +213,16 @@ A dictionary is just like any other collection array in python. But they have ke
 
 Since we are using the keys to access the items, they cannot be duplicate.The values can have duplicate items.
 
-# 2. Functions and Variables
+# 2. Functions and Variables:
+
+In Python, A function is **a block of organized, reusable code** that is used to perform single and related action. It is **only runs when it is called**.
+
+You can **pass data, known as parameters**, into a function.
+
+A function can **return data as a result**.
+
+**Return Statement** : The return statement terminates the execution of function and returns control to the calling function 
+
 
 ### Built-in-Functions
 
