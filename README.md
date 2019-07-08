@@ -26,3 +26,10 @@ This repository will offer several learning strategies and advanced study materi
 9. Web Scrapping
 10. Computer Vision
 11. Regular Expression (RegEx)
+
+
+# 1. Sequence and it's operation
+
+## What is Sequences
+## Type of Sequence
+## Sequence Operations
