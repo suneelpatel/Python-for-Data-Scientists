@@ -214,3 +214,41 @@ A dictionary is just like any other collection array in python. But they have ke
 Since we are using the keys to access the items, they cannot be duplicate.The values can have duplicate items.
 
 # 2. Functions and Variables
+
+### Built-in-Functions
+
+### Lambda Function
+
+### Scope of Variables
+
+# 3. Object Oriented Progrmaming (OOPs) Key Concepts
+
+### POPs Vs OOPs
+
+### Classes and Objects
+
+### OOPs Features
+
+# 4. Standard Libraries
+
+### Built-in-Function
+
+### Modules
+
+### Packages
+
+# 5. Numpy
+
+# 6. Pandas
+
+# 7. Matplotlib (Data Visualization)
+
+# 8. Data Manipulation
+
+# 9. Web Mapping
+
+# 10 Web Scrapping
+
+# 11. Computer Vision
+
+# 12. Regular Expression (RegEx)
