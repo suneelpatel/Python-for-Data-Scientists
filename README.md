@@ -146,6 +146,66 @@ myset = {10, 20 , 30 ,40, 50, 50}
 
 A set does not have any duplicate values, even though it will not show any errors while declaring the set, the output will only have the distinct values.
 
+#### When to use sets in Python?
+Sets in Python are used when-
+
+* The order of data does not matter
+* You do not need any repetitions in the data elements
+* You need to perform mathematical operations such as union, intersection, etc
+
+Now let us move ahead and see how to create sets in Python.
+
+#### How do you create a set in Python?
+Sets in Python can be created in two ways-
+
+* enclosing elements within curly braces
+* by using the set() function
+
+#### Set Operations
+A number of operations can be performed on sets such as adding elements, deleting elements, finding the length of a set, etc. To know what all methods can be used on sets, you can use the dir() function.
+
+#### Finding the Length of a Set
+To find the length of a set in Python, you can use the len() function. This function takes the name of the set as a parameter and returns an integer value which is equal to the number of elements present in the set.
+
+#### Accessing Elements of a Set
+Set elements cannot be accessed using the index numbers because, as specified before, elements of a set are not indexed. Therefore, when you want to access elements of a set, you can loop through it and access its elements.
+
+#### Adding elements to a Set:
+Elements can be added to a set using two functions, the add() and the update() function.
+
+#### Removing Elements of a Set
+To remove elements from a set, you can use either the remove(), discard() and the pop() functions.
+
+#### Union of Sets
+Union of sets refers to the concatenation of two or more sets into a single set by adding all unique elements present in both sets. This can be done in two ways:
+
+* Using pipeline
+* Using union() function
+
+####   Intersection of Sets
+
+The intersection of two or more sets is a new set consisting of only the common elements present in those sets.
+
+This can be done in two ways:
+
+* Using ‘&’ symbol
+* Using intersection() function
+
+#### Difference of Sets:
+The difference of sets produces a new set consisting of elements that are present only in one of those sets. This means that all elements except the common elements of those sets will be returned.
+
+This can be done in two ways:
+
+* Using the ‘-‘ symbol
+* Using difference() function
+
+#### What is a frozen set?
+
+A frozen set in Python is a set whose values cannot be modified. This means that it is immutable unlike a normal set which I have discussed previously. Frozen sets help serve as a key in dictionary key-value pairs.
+
+#### How to create frozen sets?
+Frozen sets can be obtained using the frozenset() method. This function takes any iterable items and converts it to immutable.
+
 
 ### Dictionaries Operation in Sequence
 
@@ -153,3 +213,4 @@ A dictionary is just like any other collection array in python. But they have ke
 
 Since we are using the keys to access the items, they cannot be duplicate.The values can have duplicate items.
 
+# 2. Functions and Variables
