@@ -679,9 +679,30 @@ The attributes are data members (class variables and instance variables) and met
 
 # 4. Standard Libraries
 
-### Built-in-Function
+### Modules :
 
-### Modules
+#### What is a Module?
+
+Consider a module to be the same as a code library. A file containing a set of functions you want to include in your application.
+
+Modules are simply a ‘program logic’ or a ‘python script’ that can be used for variety of applications or functions. We can declare functions, classes etc in a module.
+
+The focus is to break down the code into different modules so that there will be no or minimum dependencies on one another. Using modules in a code helps to write lesser line of codes, a single procedure developed for reuse of the code as well. It also eliminates the need to write the same logic again and again.
+
+One more advantage of using modules is that the  programs can be designed easily, since a whole team works only on a part or module of the entire code.
+
+#### Python Module Path
+When we import a module, the interpreter looks for the module in the build-in modules directories in sys.path and if not found, it will look for the module in the following order:
+
+* Current directory
+* PYTHONPATH
+* Default directory
+
+#### Built-in Modules In Python
+Built-in modules are written in C and integrated with python interpreter. Each built-in module contains resources for certain specific functionalities like Operating system management, disk input/output etc.
+
+The standard library also has many python scripts containing useful utilities.  There are several built-in modules in python at our disposal that we can use whenever we want.
+
 
 ### Packages
 
