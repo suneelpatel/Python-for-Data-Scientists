@@ -303,6 +303,208 @@ The bin() method takes a single parameter:
 num – an integer number whose binary equivalent is to be calculated.
 If not an integer, should implement __index__() method to return an integer.
 
+#### 5. Python bool() Function:
+##### Definition
+
+The bool() method converts and returns the binary equivalent string of a given integer. If the parameter isn’t an integer, it has to implement __index__() method to return an integer.
+
+##### Syntax
+
+The syntax of bool() method is:
+
+bool([value])
+
+##### Parameters
+
+It’s not mandatory to pass a value to bool(). If you do not pass a value, bool() returns False.
+
+In general use, bool() takes a single parameter value.
+
+
+#### 6. Python compile() Function:
+##### Definition
+
+The compile() method returns a Python code object from the source (normal string, a byte string, or an AST object).
+
+##### Syntax
+
+The syntax of compile() method is:
+
+compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1)
+
+##### Parameters
+
+* source – a normal string, a byte string, or an AST object
+* filename – file from which the code was read. If it wasn’t read from a file, you can give a name yourself
+* mode – Either exec or eval or single.
+        - eval – accepts only a single expression.
+        - exec – It can take a code block that has Python statements, class and functions and so on.
+        - single – if it consists of a single interactive statement
+* flags (optional) and dont_inherit (optional) – controls which future statements affect the compilation of the source. Default Value: 0
+* optimize (optional) – optimization level of the compiler. Default value -1.
+
+#### 7. Python dict() Function:
+##### Definition
+The dict() constructor creates a dictionary in Python.
+
+##### Syntax
+Different forms of dict() constructors are:
+
+* class dict(**kwarg)
+* class dict(mapping, **kwarg)
+* class dict(iterable, **kwarg)
+
+#### 8. Python enumerate() Function:
+##### Definition
+The enumerate() method adds counter to an iterable and returns it (the enumerate object).
+
+##### Syntax
+
+The syntax of enumerate() method is:
+
+enumerate(iterable, start=0)
+
+##### Parameters
+
+The enumerate() method takes two parameters:
+
+* iterable – a sequence, an iterator, or objects that support iteration
+* start (optional) – enumerate() starts counting from this number. If start is omitted, 0 is taken as the start.
+
+#### 9. Python eval() Function:
+##### Definition
+
+The eval() method parses the expression passed to this method and runs python expression (code) within the program.
+
+##### Syntax
+
+The syntax of eval() method is:
+
+eval(expression, globals=None, locals=None)
+
+##### Parameters
+
+The eval() takes three parameters:
+
+* expression – this string is parsed and evaluated as a Python expression
+* globals (optional) – a dictionary
+* locals (optional)- a mapping object. Dictionary is the standard and commonly used mapping type in Python.
+
+#### 10. Python filter() Function:
+
+##### Definition
+
+The filter() method constructs an iterator from elements of an iterable for which a function returns true.
+
+##### Syntax
+
+The syntax of filter() method is:
+
+filter(function, iterable)
+
+##### Parameters
+
+The filter() method takes two parameters:
+
+* function – function that tests if elements of an iterable return true or false
+If None, the function defaults to Identity function – which returns false if any elements are false
+* iterable – iterable which is to be filtered, could be sets, lists, tuples, or containers of any iterators
+
+#### 11. Python getattr() Function:
+
+##### Definition
+
+The getattr() method returns the value of the named attribute of an object. If not found, it returns the default value provided to the function.
+
+##### Syntax
+
+The syntax of getattr() method is:
+
+getattr(object, name[, default])
+
+##### Parameters
+
+The getattr() method takes multiple parameters:
+
+* object – object whose named attribute’s value is to be returned
+* name – string that contains the attribute’s name
+* default (Optional) – value that is returned when the named attribute is not foun
+
+#### 11. Python help() Function:
+
+#### Definition
+
+The help() method calls the built-in Python help system.
+
+##### Syntax
+The syntax of help() method is:
+
+help(object)
+
+##### Parameters
+
+The help() method takes the maximum of one parameter.
+
+* object (optional) – you want to generate the help of the given object
+
+#### 12. Python id() Function:
+##### Definition
+
+The id() function returns identity (unique integer) of an object.
+
+##### Syntax
+
+The syntax of id() method is:
+
+id(object)
+
+##### Parameters
+
+The id() function takes a single parameter object.
+
+#### 13. Python len() Function:
+##### Definition
+
+The len() function returns the number of items (length) in an object.
+
+##### Syntax
+
+The syntax of len() method is:
+
+len(s)
+
+##### Parameters
+
+s – a sequence (string, bytes, tuple, list, or range) or a collection (dictionary, set or frozen set)
+
+#### 14. Python max() Function:
+##### Definition
+
+The max() method returns the largest element in an iterable or largest of two or more parameters.
+
+##### Syntax
+
+The syntax of max() method is:
+
+max(iterable, *iterables[,key, default])
+
+max(arg1, arg2, *args[, key])
+
+##### Parameters
+
+max() has two forms of arguments it can work with.
+
+* max(iterable, *iterables[, key, default])
+        - iterable – sequence (tuple, string), collection (set, dictionary) or an iterator object whose largest element is to be found
+        - *iterables (Optional) – any number of iterables whose largest is to be found
+        - key (Optional) – key function where the iterables are passed and the comparison is performed based on its return value
+        - default (Optional) – default value if the given iterable is empty
+
+* max(arg1, arg2, *args[, key])
+        - arg1 – mandatory first object for comparison (could be number, string or other object)
+        - arg2 – mandatory second object for comparison (could be number, string or another object)
+        - *args (Optional) – other objects for comparison
+        - key – key function where each argument is passed and the comparison is performed based on its return value
 
 ### Lambda Function
 
