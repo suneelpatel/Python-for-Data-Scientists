@@ -711,22 +711,84 @@ Some Important Built-in-Modules are:
 * Random
 * Json
 
-#### Python RegEx
-A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern.
-
-RegEx can be used to check if a string contains the specified search pattern.
-
-RegEx Module
-
-Python has a built-in package called re, which can be used to work with Regular Expressions.
-
-Import the re module: import re
-
-### Packages
+### Packages : 
 
 # 5. Numpy
 
+#### NumPy : Numeric Python
+
+NumPy is the package of scientific computing
+
+NumPy is the fundamental package for scientific computing with Python. It contains among other things:
+
+* a powerful N-dimensional array (Ndarray) object
+* sophisticated (broadcasting) functions
+* tools for integrating C/C++ and Fortran code
+* useful linear algebra, Fourier transform, and random number capabilities
+
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+NumPy is licensed under the BSD license, enabling reuse with few restrictions.
+
+NumPy’s main object is the homogeneous multidimensional array. It is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers. In NumPy dimensions are called axes.
+
+NumPy’s array class is called ndarray. It is also known by the alias array.
+
+#### Ndarray - NumPy Array
+
+The Ndarray is a multi-dimenstional array object consisting of two parts -- the actual data, some metadata which describes the stored data. They are indexed just like sequence are in python, starting from 0.
+
+* Each element of Ndarray is an object of data-type object (called dtype)
+* An item extracted form ndarray, is represented by a python object of an array scaler type
+
+#### The more important attributes of an ndarray object are:
+
+* ndarray.ndim : the number of axes (dimensions) of the array.
+
+* ndarray.shape : the dimensions of the array. This is a tuple of integers indicating the size of the array in each dimension. For a matrix with n rows and m columns, shape will be (n,m). The length of the shape tuple is therefore the number of axes, ndim.
+
+* ndarray.size : the total number of elements of the array. This is equal to the product of the elements of shape.
+
+* ndarray.dtype : an object describing the type of the elements in the array. One can create or specify dtype’s using standard Python types. Additionally NumPy provides types of its own. numpy.int32, numpy.int16, and numpy.float64 are some examples.
+
+* ndarray.itemsize : the size in bytes of each element of the array. For example, an array of elements of type float64 has itemsize 8 (=64/8), while one of type complex32 has itemsize 4 (=32/8). It is equivalent to ndarray.dtype.itemsize.
+
+* ndarray.data : the buffer containing the actual elements of the array. Normally, we won’t need to use this attribute because we will access the elements in an array using indexing facilities.
+
 # 6. Pandas
+
+#### What is Pandas or Python Data Analysis Library?
+
+pandas is an open source, Python Data Analysis Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+
+The name Pandas is drived from "Panel Data" - an Econometrics from Multidimensional data.
+
+#### Library Highlights
+
+* A fast and efficient DataFrame object for data manipulation with integrated indexing;
+* Tools for reading and writing data between in-memory data structures and different formats: CSV and text files, Microsoft Excel, SQL databases, and the fast HDF5 format;
+* Intelligent data alignment and integrated handling of missing data: gain automatic label-based alignment in computations and easily manipulate messy data into an orderly form;
+* Flexible reshaping and pivoting of data sets;
+* Intelligent label-based slicing, fancy indexing, and subsetting of large data sets;
+* Columns can be inserted and deleted from data structures for size mutability;
+* Aggregating or transforming data with a powerful group by engine allowing split-apply-combine operations on data sets;
+* High performance merging and joining of data sets;
+* Hierarchical axis indexing provides an intuitive way of working with high-dimensional data in a lower-dimensional data structure;
+* Time series-functionality: date range generation and frequency conversion, moving window statistics, moving window linear regressions, date shifting and lagging. Even create domain-specific time offsets and join time series without losing data;
+* Highly optimized for performance, with critical code paths written in Cython or C.
+* Python with pandas is in use in a wide variety of academic and commercial domains, including Finance, Neuroscience, Economics, Statistics, Advertising, Web Analytics, and more.
+
+##### Pandas is well suited for many different kind of data:
+
+* Tabular data with hetrogeneously-typed columns.
+* Ordered and unordered time series data.
+* Arbitary matrix data with row and column lebels
+* Any other form of observational/Statistical data set. The data actually need not be labeled all to be placed into Pandas data structure.
+
+#### Data Structures in Pandas:
+
+Pandas provides three data structures: Series, Data Frame and Panel; all of which are built on top of the NumPy array.
+
 
 # 7. Matplotlib (Data Visualization)
 
@@ -739,3 +801,14 @@ Import the re module: import re
 # 11. Computer Vision
 
 # 12. Regular Expression (RegEx)
+
+#### Python RegEx
+A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern.
+
+RegEx can be used to check if a string contains the specified search pattern.
+
+RegEx Module
+
+Python has a built-in package called re, which can be used to work with Regular Expressions.
+
+Import the re module: import re
